@@ -1,0 +1,41 @@
+.auth {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("https://img.zcool.cn/community/01711b554590bb0000019ae9b2d944.jpg@1280w_1l_2o_100sh.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    .title-info {
+        margin-top: 100px;
+        text-align: center;
+        overflow: hidden;
+        img {
+            width: 60px;
+            height: 60px;
+            float: left;
+        }
+        .title {
+            float:left;
+            
+        }
+    }
+
+    .form {
+        width: 400px;
+        margin: 0 auto;
+
+        .item {
+            margin-bottom: 16px;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+

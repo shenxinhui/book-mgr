@@ -4,7 +4,7 @@ const routes = [
   {
     path: '/auth',
     name: 'Auth',
-    // 异步懒加载组件webpackChunkName,打包后的chunk名叫auth
+    // 异步l懒加载组件webpackChunkName,打包后的chunk名叫auth
     component: () => import(/* webpackChunkName: "auth" */ '../views/Auth/index.vue'),
   },
   // {

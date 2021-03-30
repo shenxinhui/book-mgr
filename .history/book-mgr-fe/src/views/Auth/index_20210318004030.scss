@@ -1,0 +1,18 @@
+.auth {
+    position: relative;
+    text-align: center;
+    .title-info {
+        margin-top: 100px;
+    }
+
+    .form {
+        position: relative;
+        width: 400px;
+        left: 50%;    
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+

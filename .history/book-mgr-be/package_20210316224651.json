@@ -4,7 +4,7 @@
   "description": "毕设项目的服务器",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "start": "node ./app.js"
   },
   "keywords": [
     "毕设"

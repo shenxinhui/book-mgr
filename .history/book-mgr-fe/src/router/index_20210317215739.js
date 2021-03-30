@@ -1,10 +1,10 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
+import Home from '../views/Home.vue';
 
 const routes = [
   {
     path: '/auth',
-    name: 'Auth',
-    // 异步懒加载组件webpackChunkName,打包后的chunk名叫auth
+    name: 'Home',
     component: () => import(/* webpackChunkName: "auth" */ '../views/Auth/index.vue'),
   },
   // {
